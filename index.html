@@ -14,6 +14,10 @@
 
         <p>{{ name }} is {{ age }} years old</p>
 
+        <!-- Inside directives you dont need mustaches to get the variable, only when outputting variable-->
+        <button v-on:click="age--">Decrease Age</button>
+        <button v-on:click="age++">Increase Age</button>
+
     </div>
 
 <script src="app.js"></script>
